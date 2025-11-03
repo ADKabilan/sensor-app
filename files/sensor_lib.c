@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void readsensor() 
-{
+int readsensor() {
     printf("reading sensor value...\n");
+    return 18;
 }
